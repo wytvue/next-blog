@@ -1,0 +1,27 @@
+/*light theme*/
+:root{
+    --background-color:white ;
+    --link-color:royalblue;
+    --text-color:black;
+}
+
+/*Dark theme*/
+/* :root{
+    --background-color:rgb(70, 68, 68) ;
+    --link-color:rgb(189, 189, 9);
+    --text-color:white;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a{
+    color: var(--link-color);
+    text-decoration: none;
+}
+a:focus,a:hover{
+    text-decoration: underline;
+}
